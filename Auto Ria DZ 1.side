@@ -1,0 +1,697 @@
+{
+  "id": "f59e276d-f23f-421f-b44f-b4a88787d27f",
+  "version": "2.0",
+  "name": "Auto Ria DZ 1",
+  "url": "https://auto.ria.com/uk/",
+  "tests": [{
+    "id": "71599816-a1ff-4f70-b086-4c8e585347e9",
+    "name": "Passat search (recorded)",
+    "commands": [{
+      "id": "5e92d119-fd04-417a-92c1-d6b5cb8bd841",
+      "comment": "",
+      "command": "open",
+      "target": "https://auto.ria.com/uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1dfa7b34-999d-46b8-a5c4-daa079625dcf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b1e484c-0ad6-438f-83f8-19b3c534166a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#brandTooltipBrandAutocomplete-region > .text",
+      "targets": [
+        ["css=#brandTooltipBrandAutocomplete-region > .text", "css:finder"],
+        ["xpath=//div[@id='brandTooltipBrandAutocomplete-region']/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div[2]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ceb26d7a-c179-48db-93a9-241a4e05f92e",
+      "comment": "",
+      "command": "type",
+      "target": "id=brandTooltipBrandAutocompleteInput-region",
+      "targets": [
+        ["id=brandTooltipBrandAutocompleteInput-region", "id"],
+        ["css=#brandTooltipBrandAutocompleteInput-region", "css:finder"],
+        ["xpath=//input[@id='brandTooltipBrandAutocompleteInput-region']", "xpath:attributes"],
+        ["xpath=//div[@id='brandTooltipBrandAutocomplete-region']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "od"
+    }, {
+      "id": "824d7713-435e-408d-978a-a3318711e58a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Одеса",
+      "targets": [
+        ["linkText=Одеса", "linkText"],
+        ["css=.active > .item", "css:finder"],
+        ["xpath=//a[contains(text(),'Одеса')]", "xpath:link"],
+        ["xpath=//div[@id='brandTooltipBrandAutocomplete-region']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Одеса')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94c6afc1-7867-4108-b80e-206452b2dd8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#brandTooltipBrandAutocomplete-brand > .text",
+      "targets": [
+        ["css=#brandTooltipBrandAutocomplete-brand > .text", "css:finder"],
+        ["xpath=//div[@id='brandTooltipBrandAutocomplete-brand']/label", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e42b8f38-2d3e-4c11-b192-1ac712459a5a",
+      "comment": "",
+      "command": "type",
+      "target": "id=brandTooltipBrandAutocompleteInput-brand",
+      "targets": [
+        ["id=brandTooltipBrandAutocompleteInput-brand", "id"],
+        ["css=#brandTooltipBrandAutocompleteInput-brand", "css:finder"],
+        ["xpath=//input[@id='brandTooltipBrandAutocompleteInput-brand']", "xpath:attributes"],
+        ["xpath=//div[@id='brandTooltipBrandAutocomplete-brand']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "volk"
+    }, {
+      "id": "98c81577-8cad-45bb-9144-048f936bebce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Volkswagen",
+      "targets": [
+        ["linkText=Volkswagen", "linkText"],
+        ["css=.list-item > .bold", "css:finder"],
+        ["xpath=(//a[contains(text(),'Volkswagen')])[2]", "xpath:link"],
+        ["xpath=//div[@id='brandTooltipBrandAutocomplete-brand']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61cafabb-7717-40e1-bf3d-d2c207aa8fd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.e-year .pseudoelement",
+      "targets": [
+        ["css=.e-year .pseudoelement", "css:finder"],
+        ["xpath=//form[@id='mainSearchForm']/div[2]/div[2]/div[2]/div/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Рік випуску')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe13be3f-f5ba-41f1-92f9-afe63c0dbabe",
+      "comment": "",
+      "command": "click",
+      "target": "id=yearFrom",
+      "targets": [
+        ["id=yearFrom", "id"],
+        ["name=s_yers[0]", "name"],
+        ["css=#yearFrom", "css:finder"],
+        ["xpath=//select[@id='yearFrom']", "xpath:attributes"],
+        ["xpath=//form[@id='mainSearchForm']/div[2]/div[2]/div[2]/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fe07a13-6e67-4086-ab42-68a9ef057148",
+      "comment": "",
+      "command": "select",
+      "target": "id=yearFrom",
+      "targets": [],
+      "value": "label=2000"
+    }, {
+      "id": "81746f5e-79a8-4b0c-b2eb-d0f771cfb7bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=yearTo",
+      "targets": [
+        ["id=yearTo", "id"],
+        ["name=po_yers[0]", "name"],
+        ["css=#yearTo", "css:finder"],
+        ["xpath=//select[@id='yearTo']", "xpath:attributes"],
+        ["xpath=//form[@id='mainSearchForm']/div[2]/div[2]/div[2]/div/div/div/div/select[2]", "xpath:idRelative"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75e845c2-e906-48cf-96f3-b9973ed04a58",
+      "comment": "",
+      "command": "select",
+      "target": "id=yearTo",
+      "targets": [],
+      "value": "label=2003"
+    }, {
+      "id": "f65c1a63-914a-44b9-98bb-ddf0c4f76471",
+      "comment": "",
+      "command": "click",
+      "target": "css=.e-year .fold",
+      "targets": [
+        ["css=.e-year .fold", "css:finder"],
+        ["xpath=//form[@id='mainSearchForm']/div[2]/div[2]/div[2]/div/div/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div/div/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d1a4dc3-6237-4724-be73-4c2c1b566855",
+      "comment": "",
+      "command": "click",
+      "target": "css=#brandTooltipBrandAutocomplete-model > .text",
+      "targets": [
+        ["css=#brandTooltipBrandAutocomplete-model > .text", "css:finder"],
+        ["xpath=//div[@id='brandTooltipBrandAutocomplete-model']/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0f6d84f-9963-4d87-a36a-a041ee8b8d36",
+      "comment": "",
+      "command": "type",
+      "target": "id=brandTooltipBrandAutocompleteInput-model",
+      "targets": [
+        ["id=brandTooltipBrandAutocompleteInput-model", "id"],
+        ["css=#brandTooltipBrandAutocompleteInput-model", "css:finder"],
+        ["xpath=//input[@id='brandTooltipBrandAutocompleteInput-model']", "xpath:attributes"],
+        ["xpath=//div[@id='brandTooltipBrandAutocomplete-model']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "p"
+    }, {
+      "id": "dda4a41c-6917-4b79-8fb0-1e1f20d5ffd9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Passat",
+      "targets": [
+        ["linkText=Passat", "linkText"],
+        ["css=.list-item:nth-child(1) > .bold", "css:finder"],
+        ["xpath=//a[contains(text(),'Passat')]", "xpath:link"],
+        ["xpath=//div[@id='brandTooltipBrandAutocomplete-model']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Passat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f933ae0-3e65-4b73-9537-bbab2a0d67e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-checked-car > label",
+      "targets": [
+        ["css=.filter-checked-car > label", "css:finder"],
+        ["xpath=//form[@id='mainSearchForm']/div[2]/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,' Перевірений VIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db05d30f-6715-48c2-9638-e44296986ee1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='mainSearchForm']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,' Пошук')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1e5c44d2-6eb4-4b6d-938d-0657959f0b05",
+    "name": "Language switch - UA -> RU -> UA",
+    "commands": [{
+      "id": "6d260d22-a0dd-4de6-99fb-c925db313f1a",
+      "comment": "",
+      "command": "open",
+      "target": "https://auto.ria.com/uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79087ae2-df74-4fa1-b630-d906bdb64d87",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//span[contains(.,'Розширений пошук')]",
+      "targets": [
+        ["css=.ext-end > span", "css:finder"],
+        ["xpath=//form[@id='mainSearchForm']/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Розширений пошук')]", "xpath:innerText"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "232ead1f-7763-432c-a802-01b43b1ebd15",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//span[contains(.,'Розширений пошук')]",
+      "targets": [
+        ["css=.ext-end > span", "css:finder"],
+        ["xpath=//form[@id='mainSearchForm']/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Розширений пошук')]", "xpath:innerText"]
+      ],
+      "value": "Розширений пошук"
+    }, {
+      "id": "86814001-298c-4461-abc6-15522cd5616c",
+      "comment": "",
+      "command": "click",
+      "target": "id=ru",
+      "targets": [
+        ["id=ru", "id"],
+        ["linkText=Рус", "linkText"],
+        ["css=#ru", "css:finder"],
+        ["xpath=//a[contains(text(),'Рус')]", "xpath:link"],
+        ["xpath=//a[@id='ru']", "xpath:attributes"],
+        ["xpath=//footer[@id='wrapperFooter']/div[3]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://auto.ria.com/')])[218]", "xpath:href"],
+        ["xpath=//div[3]/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Рус')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4eb7b305-f25f-4305-902e-4f81214ca460",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//span[contains(.,'Расширенный поиск')]",
+      "targets": [
+        ["css=.ext-end > span", "css:finder"],
+        ["xpath=//form[@id='mainSearchForm']/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Расширенный поиск')]", "xpath:innerText"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "d247be6c-c7de-40c4-ae01-3d4e54acfe02",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//span[contains(.,'Расширенный поиск')]",
+      "targets": [
+        ["css=.ext-end > span", "css:finder"],
+        ["xpath=//form[@id='mainSearchForm']/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Расширенный поиск')]", "xpath:innerText"]
+      ],
+      "value": "Расширенный поиск"
+    }, {
+      "id": "4102fc77-0c8c-4135-81b7-f7733922d2c7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Продать авто",
+      "targets": [
+        ["linkText=Продать авто", "linkText"],
+        ["css=.button-add:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Продать авто')]", "xpath:link"],
+        ["xpath=//div[@id='desktop-container-header']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://auto.ria.com/add_auto.html')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Продать авто')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd54fe7d-a8f5-476a-bf77-b74d8d8bf5f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=ukr",
+      "targets": [
+        ["id=ukr", "id"],
+        ["linkText=Укр", "linkText"],
+        ["css=#ukr", "css:finder"],
+        ["xpath=(//a[contains(text(),'Укр')])[4]", "xpath:link"],
+        ["xpath=//a[@id='ukr']", "xpath:attributes"],
+        ["xpath=//footer[@id='wrapperFooter']/div[3]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://auto.ria.com/uk/')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e40e8791-2814-4e42-9114-608bf5aa67f0",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//span[contains(.,'Розширений пошук')]",
+      "targets": [],
+      "value": "5000"
+    }, {
+      "id": "0733f3f3-a778-4b49-a1e3-0e11cf2825f1",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//span[contains(.,'Розширений пошук')]",
+      "targets": [],
+      "value": "Розширений пошук"
+    }, {
+      "id": "8a977a32-90bf-4884-a9ea-c288db89b876",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//span[contains(.,'Розширений пошук')]",
+      "targets": [],
+      "value": "Розширений пошук"
+    }]
+  }, {
+    "id": "a855715f-8376-40bf-a976-e1c6df5b1058",
+    "name": "Passat search (manual) (2003 - 2005)",
+    "commands": [{
+      "id": "0f22117d-d96f-46db-9a7c-6383e28486b0",
+      "comment": "",
+      "command": "open",
+      "target": "https://auto.ria.com/uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf7d72c3-01a5-44d8-98a8-d61c7350303a",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//select[@id=\"categories\"]/option[2]",
+      "targets": [
+        ["id=categories", "id"],
+        ["name=category_id", "name"],
+        ["css=#categories", "css:finder"],
+        ["xpath=//select[@id='categories']", "xpath:attributes"],
+        ["xpath=//form[@id='mainSearchForm']/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "Легкові"
+    }, {
+      "id": "91aea7c2-4c6d-4546-a379-c4a7b4b9bc72",
+      "comment": "",
+      "command": "click",
+      "target": "css=#brandTooltipBrandAutocomplete-region > .text",
+      "targets": [
+        ["css=#brandTooltipBrandAutocomplete-region > .text", "css:finder"],
+        ["xpath=//div[@id='brandTooltipBrandAutocomplete-region']/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div[2]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65c22f7f-9ae3-47b7-924d-217bd61c26c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=brandTooltipBrandAutocompleteInput-region",
+      "targets": [
+        ["css=#brandTooltipBrandAutocomplete-region > .text", "css:finder"],
+        ["xpath=//div[@id='brandTooltipBrandAutocomplete-region']/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div[2]/div/label", "xpath:position"]
+      ],
+      "value": "od"
+    }, {
+      "id": "035ab10c-5b6e-4eea-86bd-e7a749c6a322",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Одеса",
+      "targets": [
+        ["linkText=Одеса", "linkText"],
+        ["css=.active > .item", "css:finder"],
+        ["xpath=//a[contains(text(),'Одеса')]", "xpath:link"],
+        ["xpath=//div[@id='brandTooltipBrandAutocomplete-region']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Одеса')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cbef1d2-b3b0-4283-9f58-f53600d718bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-checked-car > label",
+      "targets": [
+        ["css=.filter-checked-car > label", "css:finder"],
+        ["xpath=//form[@id='mainSearchForm']/div[2]/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,' Перевірений VIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b56876c1-302a-4e49-8123-1b2fb2c9d0ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=#brandTooltipBrandAutocomplete-brand > .text",
+      "targets": [
+        ["css=#brandTooltipBrandAutocomplete-brand > .text", "css:finder"],
+        ["xpath=//div[@id='brandTooltipBrandAutocomplete-brand']/label", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8e5eabc-f552-4835-8544-46eb93c3792a",
+      "comment": "",
+      "command": "type",
+      "target": "id=brandTooltipBrandAutocompleteInput-brand",
+      "targets": [],
+      "value": "volk"
+    }, {
+      "id": "efdc0c6c-4ffc-49b7-a3c6-9837758a030d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Volkswagen",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e9a04f6-f307-430f-b5e1-fae9d2798d68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.e-year .pseudoelement",
+      "targets": [
+        ["css=.e-year .pseudoelement", "css:finder"],
+        ["xpath=//form[@id='mainSearchForm']/div[2]/div[2]/div[2]/div/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Рік випуску')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f56c64ec-190f-488d-a1f5-7c865ec38b52",
+      "comment": "",
+      "command": "click",
+      "target": "id=yearFrom",
+      "targets": [
+        ["id=yearFrom", "id"],
+        ["name=s_yers[0]", "name"],
+        ["css=#yearFrom", "css:finder"],
+        ["xpath=//select[@id='yearFrom']", "xpath:attributes"],
+        ["xpath=//form[@id='mainSearchForm']/div[2]/div[2]/div[2]/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f844ddd0-250d-4b44-9ba3-f0479087d1a8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//select[@id=\"yearFrom\"]/option[22]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cf4f5da-9e44-499b-8f38-995603fc39f3",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//select[@id=\"yearFrom\"]/option[22]",
+      "targets": [],
+      "value": "2003"
+    }, {
+      "id": "a2ed016d-9daa-4c31-92ca-8f4e31b1fa9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=yearTo",
+      "targets": [
+        ["id=yearTo", "id"],
+        ["name=po_yers[0]", "name"],
+        ["css=#yearTo", "css:finder"],
+        ["xpath=//select[@id='yearTo']", "xpath:attributes"],
+        ["xpath=//form[@id='mainSearchForm']/div[2]/div[2]/div[2]/div/div/div/div/select[2]", "xpath:idRelative"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f584ff9-7661-4047-849d-017c3776216f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//select[@id=\"yearTo\"]/option[20]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a06a4cc-0efc-4316-aafb-8b85d28cffa2",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//select[@id=\"yearTo\"]/option[20]",
+      "targets": [],
+      "value": "2005"
+    }, {
+      "id": "dc9659d4-5fa9-4e85-af38-e6144238a0c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#brandTooltipBrandAutocomplete-model > .text",
+      "targets": [
+        ["css=#brandTooltipBrandAutocomplete-model > .text", "css:finder"],
+        ["xpath=//div[@id='brandTooltipBrandAutocomplete-model']/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8c28de9-93db-4fd0-901d-639fe9c65358",
+      "comment": "",
+      "command": "type",
+      "target": "id=brandTooltipBrandAutocompleteInput-model",
+      "targets": [],
+      "value": "pas"
+    }, {
+      "id": "386d0f83-8299-4073-a227-db553bd560aa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Passat",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b74c2325-35c7-4373-a219-aedba1f07091",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button > span",
+      "targets": [
+        ["css=.button > span", "css:finder"],
+        ["xpath=//form[@id='mainSearchForm']/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,' Пошук')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6600858d-ffd4-4916-ab8e-85f5ab216615",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//*[@id=\"topFilterTextSearchInputWrapper\"]/span[2]/a[1]",
+      "targets": [],
+      "value": "Volkswagen"
+    }]
+  }, {
+    "id": "7961518d-183f-4e72-92b2-10954941b869",
+    "name": "Hover over dropdown -> Fuel prices",
+    "commands": [{
+      "id": "a9302055-9184-4c4c-b9f2-27460ab72d42",
+      "comment": "",
+      "command": "open",
+      "target": "https://auto.ria.com/uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75c9019d-3b6b-4229-9e7e-c48ae2637fce",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Увійти в кабінет')]",
+      "targets": [
+        ["css=.tl", "css:finder"],
+        ["xpath=//header[@id='bu-desktop-header']/div/div/div/a[3]/span", "xpath:idRelative"],
+        ["xpath=//a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Увійти в кабінет')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5645fce4-089d-4d4e-bd83-0af3ec62d0b0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=AllForAuto",
+      "targets": [
+        ["id=AllForAuto", "id"],
+        ["linkText=Все для авто", "linkText"],
+        ["css=#AllForAuto", "css:finder"],
+        ["xpath=//a[contains(text(),'Все для авто')]", "xpath:link"],
+        ["xpath=//a[@id='AllForAuto']", "xpath:attributes"],
+        ["xpath=//div[@id='headerApp']/header/div[3]/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://auto.ria.com/all_for_auto/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Все для авто')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7c71bd3-7fca-443b-8307-b280dd37b0bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ціни на пальне",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33bb1b72-2d95-4dd1-b9bf-f357d70b3af3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.region",
+      "targets": [
+        ["css=.region", "css:finder"],
+        ["xpath=//table[@id='refuel']/thead/tr/td/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad1c765d-5717-4fc4-8eee-4b074c8cc2f8",
+      "comment": "",
+      "command": "select",
+      "target": "css=.region",
+      "targets": [],
+      "value": "label=Одеська область"
+    }, {
+      "id": "aa05a9c2-166c-455a-b275-99aeef7dedeb",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"refuel\"]/thead/tr/td[1]/select/option[13]",
+      "targets": [
+        ["css=.region", "css:finder"],
+        ["xpath=//table[@id='refuel']/thead/tr/td/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "Одеська область"
+    }, {
+      "id": "1eb656f2-b784-49ad-a640-fa5eedbf300f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//*[@id=\"refuel\"]/thead/tr/td[1]/select/option[13]",
+      "targets": [],
+      "value": "Одеська область"
+    }, {
+      "id": "fab2eac8-f161-468e-9249-4b34a998f8d2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[7]/div[3]/main/section[1]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f2ebcaf-8126-4307-b187-b68e87f72f9b",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[7]/div[3]/main/section[1]/a",
+      "targets": [],
+      "value": "Приховати заправки"
+    }, {
+      "id": "b47abaef-d043-40e8-b980-fcba6a79404a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Приховати заправки",
+      "targets": [
+        ["linkText=Приховати заправки", "linkText"],
+        ["css=.showAll", "css:finder"],
+        ["xpath=//a[contains(text(),'Приховати заправки')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Приховати заправки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcf08b01-87a6-40f0-bd01-50ca34891955",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Показати усі заправки",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": "Показати усі заправки"
+    }]
+  }],
+  "suites": [{
+    "id": "2ce382b4-fbb7-4fff-b036-03d12506e746",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["71599816-a1ff-4f70-b086-4c8e585347e9"]
+  }],
+  "urls": ["https://auto.ria.com/uk/"],
+  "plugins": []
+}
